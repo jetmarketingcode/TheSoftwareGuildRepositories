@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ContactUsForm</title>
+</head>
+<body>
+  <form action="ContactUsForm.html" method="POST">
+    <pre>
+           First Name:   <input type="text"/><br/>
+            Last Name:   <input type="text"/><br/>
+                Email:   <input type="text"/><br/>
+      Type of License:  <input type="radio" name="answer" value="business" checked />Business <input type="radio" name="answer" value="personal" />Personal<br/>
+               Reason:   <select name="reason"> 
+		<option value="SelectReason">Select a Reason</option>
+		<option value="SoftwareSupport">Software Support</option>
+		<option value="HardwareSupport">Hardware Support</option>
+		<option value="InformationRequest">Information Request</option>
+		</select><br/>
+Additional Information: 
+			 <textarea name="additionalInformation" rows="5" cols="16"></textarea><br/>
+                         <input type="checkbox" name="terms" value="agree" />I have read the terms of the service.<br/>
+			       <input type="submit" name="Send Request" value="Send Request" />
+    </pre>
+  </form>
+</body>
+</html>
