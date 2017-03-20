@@ -1,0 +1,19 @@
+header {
+	text-align: center;
+	background-color: silver;
+}
+
+footer {
+	text-align: center;
+	background-color: silver;
+}
+
+body {
+	padding: 10px 0px;
+}
+
+div.main {
+	background-color: cyan;
+}
+
+
