@@ -1,0 +1,40 @@
+
+	
+		h1, h3 {
+		   font-family: 'Luckiest Guy', cursive;
+		   color: red;
+		   font-weight: bold;
+		   padding-top: 15px;
+		}
+		
+		h2, h4 {
+		   color: red;
+		   font-weight: bold;
+		   padding-top: 2px;
+		   }
+		   
+		div {
+			background: silver url('http://wwwrollingstones.wpengine.netdna-cdn.com/files/2012/07/mzi.cudvuyre.600x600-75.jpg') no-repeat center fixed;
+		}
+		   
+		
+		table, th, tr, td {
+		   color: white;
+		   background-color: red;
+		   border: 3px solid gray;
+		   border-collapse: collapse;
+		}
+		
+		table {
+		   width: 100%;
+		}
+		
+		td {
+			text-align: center;
+		}
+		
+		ul {
+		   color: red;
+		   font-style: italic;
+		   }
+		
