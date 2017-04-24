@@ -56,19 +56,19 @@
 		}
 		 
 		 
-		table {
+		.table-responsive {
 		   width: 100%;
 		}
 		
-		thead {
+		th {
 			background-color: black;
 		}
 		
-		tbody tr:nth-child(even) {
+		tr:nth-child(even) {
 			background-color: silver;
 		}
 		
-		tbody tr:nth-child(odd) {
+		tr:nth-child(odd) {
 			background-color: red;
 		}
 		
