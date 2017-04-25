@@ -43,9 +43,9 @@
 		}
 				
 		
-		table, th, tr, td {
+		.hits, th, tr, td {
 		   color: white;
-		   border: 3px solid gray;
+		   border: 5px solid black;
 		   border-collapse: collapse;
 		   text-align: center;
 		}
@@ -53,11 +53,6 @@
 		 tbody {
 		   font-style: italic;
 		   
-		}
-		 
-		 
-		.table-responsive {
-		   width: 100%;
 		}
 		
 		th {
@@ -77,4 +72,7 @@
 		   color: red;
 		   font-style: italic;
 		   }
-		
+		#iframe {
+			width: 100%;
+			border: 5px solid red;
+		}
