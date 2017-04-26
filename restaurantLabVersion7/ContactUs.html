@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="restaurantStyles.css"/>
+		<style>
+ 
+			label {
+				font-weight: bold;
+			}
+
+		</style>
+	</head>
+  <body>
+    <div class="container">
+		<div id="myCarousel" class="carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol> 		
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				We are opening soon in St.Paul
+			</div>
+			<div class="item">
+				Spring Menu is out!
+			</div>
+			<div class="item">
+				Gate-R-Ale is the beer of the month
+			</div>
+		</div>
+		</div>
+		<div class="header"><h1>Gate Way Cafe</h1>
+			<ul class="nav nav-pills">
+				<li><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="Menu.html">Menu</a></li>
+				<li class="active"><a href="ContactUs.html">ContactUs</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<form>
+				<div class="form-group">
+					<label for="first name">First Name:</label>
+						<input type="text" class="form-control" id="firstName">
+				</div>
+				<div class="form-group">
+					<label for="last name">Last Name:</label>
+						<input type="text" class="form-control" id="lastName">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="reason">Reason for Inquiry:</label>
+						<select id="reasonforinquiry" class="form-control">
+							<option value="Catering">Catering</option>
+							<option value="Private Party">Private Party</option>
+							<option value="Feedback">Feedback</option>
+							<option value="Other">Other</option>
+						</select>
+				</div>
+				<div class="form-group">
+					<label for="addi">Additional Information:</label><textarea id="additionalinformation" class="form-control"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="visited before">Have you been to the Restaurant?</label>
+						<label class="radio-inline"><input type="radio" id="visitedBefore" name="answer" value="no" checked>No</label><label class="radio-inline"><input type="radio" name="answer" value="yes" >Yes</label>
+				</div>
+				<div class="form-group">
+					<label for="daysToContact">Best Days to Contact You:</label><label class="checkbox-inline"><input type="checkbox" value="">M</label><label class="checkbox-inline"><input type="checkbox" value="">T</label><label class="checkbox-inline"><input type="checkbox" value="">W</label><label class="checkbox-inline"><input type="checkbox" value="">Th</label><label class="checkbox-inline"><input type="checkbox" value="">F</label>
+				</div>
+				<div class="form-group">
+					<input type="submit" class="form-control" name="Send Request" value="Send Request" style="color: white; background-color: navy;">
+				</div>
+			</form>	
+		</div>
+		<div class="footer">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3>123 Fictitious Ave, Somewhere, MN 55555</h3>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-xs-12">
+					<h3>Telephone 612-555-5555</h3>
+				</div>
+			</div>
+		</div>
+  
+            <!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </div>
+  </body>
+</html>
